@@ -52,7 +52,6 @@ with st.sidebar :
         if submitted:
             st.success("Commentaire est posté avec succès!") 
 
-
 selection = option_menu(
         menu_title=None,
         options=["Accueil", "Recherche", "Notre Équipe", "Notre Site"],
